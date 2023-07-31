@@ -1,0 +1,21 @@
+<html>
+  NVM Manager
+</html>
+
+<!-- 
+  https://www.freecodecamp.org/news/nvm-for-windows-how-to-download-and-install-node-version-manager-in-windows-10/
+
+If you have 2 projects need different nodejs versions to be build successfully in angular then you can use nvm and nvm commands
+--------------------------------------------------------------------------------------------------------------------------------
+nvm ls => to show all installed nodejs versions
+nvm use 'version_number' to switch your current nodejs versions
+
+Then you can use the commands below to rebuild the project after setting your nodejs version
+
+Steps to build angular project with its relevant angular and nodejs versions
+============================================================================
+npm cache clean --force
+Remove-Item -Path node_modules -Recurse -Force
+Remove package-lock.json
+npm install --force 
+-->
